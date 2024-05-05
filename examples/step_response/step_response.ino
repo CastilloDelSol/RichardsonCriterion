@@ -30,7 +30,7 @@ void setup()
         Serial.print("\t\t");
         Serial.print(ft, 6);
         Serial.print("\t\t");
-        Serial.println(richardson.hasConverged(epsilon) ? "true" : "false");
+        Serial.println(richardson.hasConverged() ? "true" : "false");
         t += step;
     }
 
