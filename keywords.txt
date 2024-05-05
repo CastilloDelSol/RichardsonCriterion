@@ -7,5 +7,6 @@ RichardsonCriterion	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+
 addDataPoint	KEYWORD2
 hasConverged	KEYWORD2
