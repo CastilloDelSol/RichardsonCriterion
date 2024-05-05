@@ -69,7 +69,7 @@ public:
 
         T prediction = x[2] + q * (x[2] - x[1] + h) / (1.0 - q);
 
-        if (std::fabs(x[2] - prediction) < epsilon)
+        if (abs(x[2] - prediction) < epsilon)
         {
             // Convergence achieved, reset position index
             pos = 0;
