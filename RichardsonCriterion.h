@@ -77,6 +77,15 @@ public:
         return false;
     }
 
+    /**
+    * @brief Reset the internal state of the RichardsonCriterion instance.
+    *
+    * This function resets the position index for adding new data points
+    * back to the initial state, effectively clearing the sequence of data
+    * points stored in the object. It is useful for reinitializing the
+    * convergence check process, ensuring that the convergence check starts
+    * afresh with a clean slate, considering only the newly added data points.
+    */
     void reset()
     {
         pos = 0;
