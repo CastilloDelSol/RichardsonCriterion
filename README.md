@@ -1,4 +1,3 @@
-================================================================================
 RichardsonCriterion Class Documentation
 ================================================================================
 
@@ -6,7 +5,6 @@ Author: Jon Doe
 Date Created: May 3, 2024
 Date Last Updated: N/A
 
-================================================================================
 Overview:
 ================================================================================
 
@@ -14,7 +12,6 @@ The RichardsonCriterion class implements the Richardson Extrapolation convergenc
 criterion. This technique is commonly used in numerical analysis to estimate the
 limit of a sequence by extrapolating values from nearby points in the sequence.
 
-================================================================================
 Class Information:
 ================================================================================
 
@@ -24,7 +21,6 @@ Author: Jon Doe
 Date Created: May 3, 2024
 Date Last Updated: N/A
 
-================================================================================
 Description:
 ================================================================================
 
@@ -33,7 +29,6 @@ of data points has converged using Richardson Extrapolation technique. This clas
 offers improved accuracy and adaptability compared to a simple epsilon check, 
 making it suitable for various numerical analysis applications.
 
-================================================================================
 Benefits Compared to Simple Epsilon Check:
 ================================================================================
 
@@ -47,20 +42,16 @@ Benefits Compared to Simple Epsilon Check:
 
 5. Reusability and Maintainability: Once implemented, the RichardsonCriterion class can be reused across multiple applications or scenarios without the need for significant modifications. It encapsulates the convergence check logic, making it easier to maintain and debug.
 
-================================================================================
 Usage Examples:
 ================================================================================
 
-/examples/step_response/step_response.cpp
 /examples/step_response/step_response.ino
 
-================================================================================
 Dependencies:
 ================================================================================
 
 None
 
-================================================================================
 Known Issues or Limitations:
 ================================================================================
 
