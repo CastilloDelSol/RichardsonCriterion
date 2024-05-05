@@ -10,3 +10,4 @@ RichardsonCriterion	KEYWORD1
 
 addDataPoint	KEYWORD2
 hasConverged	KEYWORD2
+reset        	KEYWORD2
