@@ -1,7 +1,7 @@
 RichardsonCriterion Class Documentation
 ================================================================================
 
-Author: Jon Doe
+Author: Timothy Suncastle
 Date Created: May 3, 2024
 Date Last Updated: N/A
 
@@ -16,8 +16,8 @@ Class Information:
 ================================================================================
 
 Class Name: RichardsonCriterion
-Version: 1.00
-Author: Jon Doe
+Version: V1.0.0
+Author: Timothy Suncastle
 Date Created: May 3, 2024
 Date Last Updated: N/A
 
