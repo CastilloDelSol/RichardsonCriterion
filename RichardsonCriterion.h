@@ -71,11 +71,14 @@ public:
 
         if (abs(x[2] - prediction) < epsilon)
         {
-            // Convergence achieved, reset position index
-            pos = 0;
             return true;
         }
 
         return false;
+    }
+
+    void reset()
+    {
+        pos = 0;
     }
 };
